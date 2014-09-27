@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#define CoolPink colorWithRed:255/255.0 green:135/255.0 blue:223/225.0 alpha:1.0
+
 
 @interface ViewController ()
 
@@ -27,14 +29,21 @@
 }
 
 - (IBAction)btnChangePressed:(id)sender {
+    self.imgWelcome.image = [UIImage imageNamed: @"Android.jpg"];
+    
 }
 
 - (IBAction)btnChangeNamePressed:(id)sender {
     
     self.lblWelcome.text = @"Daniel Sánchez Ramírez";
     self.lblWelcome.adjustsFontSizeToFitWidth = YES;
-    self.lblWelcome.textColor = [UIColor redColor];
+    self.lblWelcome.textColor = [UIColor CoolPink];
     
+    
+}
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.textName resignFirstResponder];
     
 }
 @end

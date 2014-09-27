@@ -15,5 +15,6 @@
 
 - (IBAction)btnChangePressed:(id)sender;
 - (IBAction)btnChangeNamePressed:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *textName;
 
 @end

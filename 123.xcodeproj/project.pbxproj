@@ -22,6 +22,8 @@
 		6500F95219D7317300F8D0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6500F95019D7317300F8D0BC /* InfoPlist.strings */; };
 		6500F95419D7317300F8D0BC /* _23Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6500F95319D7317300F8D0BC /* _23Tests.m */; };
 		6500F95F19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6500F95E19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg */; };
+		6500F96119D73D3C00F8D0BC /* Android.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6500F96019D73D3C00F8D0BC /* Android.jpg */; };
+		6500F96419D73F1A00F8D0BC /* view1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6500F96319D73F1A00F8D0BC /* view1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		6500F95119D7317300F8D0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6500F95319D7317300F8D0BC /* _23Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _23Tests.m; sourceTree = "<group>"; };
 		6500F95E19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apple-Think_Different-Apple-Logo.jpg"; sourceTree = "<group>"; };
+		6500F96019D73D3C00F8D0BC /* Android.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Android.jpg; sourceTree = "<group>"; };
+		6500F96219D73F1A00F8D0BC /* view1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view1.h; sourceTree = "<group>"; };
+		6500F96319D73F1A00F8D0BC /* view1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,7 @@
 		6500F91C19D7317300F8D0BC = {
 			isa = PBXGroup;
 			children = (
+				6500F96019D73D3C00F8D0BC /* Android.jpg */,
 				6500F95E19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg */,
 				6500F92E19D7317300F8D0BC /* 123 */,
 				6500F94D19D7317300F8D0BC /* 123Tests */,
@@ -115,11 +121,10 @@
 		6500F92E19D7317300F8D0BC /* 123 */ = {
 			isa = PBXGroup;
 			children = (
+				6500F96519D73F3700F8D0BC /* controllers */,
 				6500F93719D7317300F8D0BC /* AppDelegate.h */,
 				6500F93819D7317300F8D0BC /* AppDelegate.m */,
 				6500F93A19D7317300F8D0BC /* Main.storyboard */,
-				6500F93D19D7317300F8D0BC /* ViewController.h */,
-				6500F93E19D7317300F8D0BC /* ViewController.m */,
 				6500F94019D7317300F8D0BC /* Images.xcassets */,
 				6500F92F19D7317300F8D0BC /* Supporting Files */,
 			);
@@ -153,6 +158,17 @@
 				6500F95019D7317300F8D0BC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6500F96519D73F3700F8D0BC /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6500F96219D73F1A00F8D0BC /* view1.h */,
+				6500F96319D73F1A00F8D0BC /* view1.m */,
+				6500F93D19D7317300F8D0BC /* ViewController.h */,
+				6500F93E19D7317300F8D0BC /* ViewController.m */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +250,7 @@
 				6500F94119D7317300F8D0BC /* Images.xcassets in Resources */,
 				6500F93319D7317300F8D0BC /* InfoPlist.strings in Resources */,
 				6500F93C19D7317300F8D0BC /* Main.storyboard in Resources */,
+				6500F96119D73D3C00F8D0BC /* Android.jpg in Resources */,
 				6500F95F19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +272,7 @@
 			files = (
 				6500F93F19D7317300F8D0BC /* ViewController.m in Sources */,
 				6500F93919D7317300F8D0BC /* AppDelegate.m in Sources */,
+				6500F96419D73F1A00F8D0BC /* view1.m in Sources */,
 				6500F93519D7317300F8D0BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
