@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-//hola
+@property (strong, nonatomic) IBOutlet UILabel *lblWelcome;
+@property (strong, nonatomic) IBOutlet UIImageView *imgWelcome;
+@property (strong, nonatomic) IBOutlet UIButton *btnChange;
+
+- (IBAction)btnChangePressed:(id)sender;
+- (IBAction)btnChangeNamePressed:(id)sender;
+
 @end

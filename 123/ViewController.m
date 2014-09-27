@@ -26,4 +26,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnChangePressed:(id)sender {
+}
+
+- (IBAction)btnChangeNamePressed:(id)sender {
+    
+    self.lblWelcome.text = @"Daniel Sánchez Ramírez";
+    self.lblWelcome.adjustsFontSizeToFitWidth = YES;
+    self.lblWelcome.textColor = [UIColor redColor];
+    
+    
+}
 @end

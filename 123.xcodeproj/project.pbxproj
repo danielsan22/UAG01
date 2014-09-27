@@ -21,6 +21,7 @@
 		6500F94A19D7317300F8D0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6500F92C19D7317300F8D0BC /* UIKit.framework */; };
 		6500F95219D7317300F8D0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6500F95019D7317300F8D0BC /* InfoPlist.strings */; };
 		6500F95419D7317300F8D0BC /* _23Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6500F95319D7317300F8D0BC /* _23Tests.m */; };
+		6500F95F19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6500F95E19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6500F94F19D7317300F8D0BC /* 123Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "123Tests-Info.plist"; sourceTree = "<group>"; };
 		6500F95119D7317300F8D0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6500F95319D7317300F8D0BC /* _23Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _23Tests.m; sourceTree = "<group>"; };
+		6500F95E19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apple-Think_Different-Apple-Logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		6500F91C19D7317300F8D0BC = {
 			isa = PBXGroup;
 			children = (
+				6500F95E19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg */,
 				6500F92E19D7317300F8D0BC /* 123 */,
 				6500F94D19D7317300F8D0BC /* 123Tests */,
 				6500F92719D7317300F8D0BC /* Frameworks */,
@@ -231,6 +234,7 @@
 				6500F94119D7317300F8D0BC /* Images.xcassets in Resources */,
 				6500F93319D7317300F8D0BC /* InfoPlist.strings in Resources */,
 				6500F93C19D7317300F8D0BC /* Main.storyboard in Resources */,
+				6500F95F19D7358400F8D0BC /* Apple-Think_Different-Apple-Logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
